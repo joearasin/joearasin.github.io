@@ -16,13 +16,21 @@
   <script type="text/javascript" src="http://use.typekit.com/lkj5oml.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <style>
-    #container{
+    #container1{
       width: 600px;
-      border: 1px solid black;
       position: absolute;
-      right: 1px;
-      bottom: 1px;
+      left: 50px;
+      top: 50px;
       padding: 10px;
+      height: 300px;
+    }
+    #container2{
+      width: 600px;
+      position: absolute;
+      left: 50px;
+      bottom: 50px;
+      padding: 10px;
+      height: 300px;
     }
     ul {
       margin: 0;
@@ -37,24 +45,45 @@
       text-decoration: none;
     }
     h1 {
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    #container1 h1 {
       font-family: "etica-display-1","etica-display-2","helvetica","arial",sans-serif;
       font-weight: 100;
       font-size: 80px;
     }
+    #container1 li {
+      font: normal normal bold 40px Helvetica, sans-serif;
+      margin-bottom: 20px;
+    }
+    #container2 h1 {
+      font-family: "poster-1","poster-2",sans-serif;
+      font-size: 80px;
+    }
+    #container2 li {
+      font-family: "poster-1","poster-2",sans-serif;
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
   </style>
 </head>
 <body>
-<div id=container>
+<div id=container1>
   <h1 id="joe_arasin">Joe Arasin</h1>
 <ul>
 <li><a href="http://www.twitter.com/arasin">Stream: Twitter</a></li>
 <li><a href="http://careers.stackoverflow.com/joearasin">R&eacute;sum&eacute;: StackOverflow</a></li>
 <li><a href="http://github.com/joearasin">Code: Github</a></li>
 </ul>
-
-
-
-
+</div>
+<div id=container2>
+  <h1 id="joe_arasin">Joe Arasin</h1>
+<ul>
+<li><a href="http://www.twitter.com/arasin">Stream: Twitter</a></li>
+<li><a href="http://careers.stackoverflow.com/joearasin">R&eacute;sum&eacute;: StackOverflow</a></li>
+<li><a href="http://github.com/joearasin">Code: Github</a></li>
+</ul>
 </div>
 </body>
 </html>
