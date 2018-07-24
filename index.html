@@ -12,32 +12,36 @@
       font-family: "Operator SSm A", "Operator SSm B";
       background-color: #f4faf5;
       margin: 2em auto;
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+      align-items: flex-start;
     }
     h1 {
       font-style: normal;
       font-weight: 700;
-      text-align: center;
       font-size: 1.5em;
       line-height: 0.5em;
+      align-self: center;
+
     }
     h2 {
       font-family: "Operator SSm SmallCaps A", "Operator SSm SmallCaps B";
       font-style: normal;
       font-weight: 300;
       text-align: center;
+      align-self: center;
     }
-    h1 span{
-      color: #ddd;
-    }
-    ul {
-      margin: 0 auto;
+    h3 {
+      font-size: 1em;
+      font-family: "Operator SSm SmallCaps A", "Operator SSm SmallCaps B";
       font-weight: 300;
-      display: flex;
-      flex-direction: column;
-      max-width: 500px;
+      margin-bottom: .5em;
     }
-    li {
-      list-style-type: none;
+    p {
+      max-width: 500px;
+      font-weight: 300;
+      margin-top: 0;
     }
     a {
       font-style: italic;
@@ -58,11 +62,17 @@
 <body>
     <h1>Joe Arasin</h1>
     <h2>New York</h2>
+    <p>Full stack software engineer and data scientist.</p>
+    <p><a href="mailto:joe@arasin.com?">Contact me</a> to discuss contract opportunities.</p>
+    <p>Collaborate with me on <a href="http://github.com/joearasin">Github</a>.</p>
 
-    <ul>
-      <p><a href="mailto:joe@arasin.com?">Contact me</a> to discuss contract opportunities</p>
-      <li>Collaborate with me on <a href="http://github.com/joearasin">Github</a></li>
-
-    </ul>
+    <h3>Frontend Engineering</h3>
+    <p>HTML, CSS, and Javascript, including React, Angular, Apollo GraphQL and D3.js.
+      <h3>Backend Engineering</h3>
+      <p>Java, Scala, Ruby (on Rails), Python, and Node.js.</p>
+      <h3>Devops</h3>
+      <p>AWS, Ansible.</p>
+      <h3>Data Science</h3>
+      <p>R, Python, Apache Spark, SQL, and Excel.</p>
 </body>
 </html>
